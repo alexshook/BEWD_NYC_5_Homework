@@ -3,6 +3,7 @@ require 'twitter'
 require 'json'
 
 # Twitter API keys
+# Please set environment variables
 client = Twitter.configure do |config|
   config.consumer_key = ENV['TWITTER_CONSUMER_KEY']
   config.consumer_secret = ENV['TWITTER_CONSUMER_SECRET']
@@ -26,11 +27,14 @@ if how_many < 1
 end
 # Letting user know we're searching
 puts "We're searching #{how_many} tweets for #{search_for}."
+
 # Search results
 result = client.search("#{search_for}", :count => "#{how_many}").statuses
 # Working on a fix to show Twitter handles
-# but not sure if I found the correct entities/am even using them correctly
+# but not sure if I found the correct JSON entities/am using them correctly
 # becuase t["screen_name"] doesn't do what the documentation says it does
 result.each do |t|
 	puts t["text"], t["screen_name"]
 end
+# Think I might have failed #3 on the midterm, but this code works
+# I'll commit again if I can get any of my other attempts working
