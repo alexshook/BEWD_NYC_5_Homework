@@ -2,11 +2,13 @@
 
 ## BEWD Final Project Proposal
 
-#### (doesn't have a name yet) by Alexandra Shook
+### Retourist
 
-For my final project, I want to create an untourist guide to New York City. I'd like it to be a resource for people who want to experiece New York like a local. 
+#### An app for visitors who have already done the tourist thing. 
 
-I'm thinking of using the Yelp API to include information on restaurants, museums, stores and other tourist attractions that are not too touristy. In addition to Yelp ratings, I might make something that lets users star attractions (sort of like an upvote/downvote system) and leave their own feedback, too. There's a Yelp gem I can use that looks like it has okay documentation. 
+For my final project, I want to create an untourist guide to New York City. I'd like it to be a resource for people who have already been here, gone to all of the popular tourist attractions, and are looking to experiece New York differently. 
+
+I'm thinking of using the Yelp API to include information on restaurants, museums, stores and other tourist attractions that are not too touristy. In addition to Yelp ratings, I might make something that lets users star attractions (sort of like an upvote/downvote system) and leave their own feedback, too. There's a Yelp gem I can use that looks like it has okay documentation and is updated fairly frequently.
 
 It'll have accounts, security, etc. and cover all of the core requirements for the assignment. If it's allowed, I'd like it to be by invitation only (branding purposes).
 
@@ -16,4 +18,4 @@ Yelp API - <http://www.yelp.com/developers/documentation>
 
 yelpster gem - <https://github.com/nvd/yelpster>
 
-I don't have any wireframes yet. Just thought of this last night and it's a better idea than my other one (photo sharing, boring).
+I don't have any wireframes yet. I'm really terrible at design but I promise to try to make something that looks decent. 
